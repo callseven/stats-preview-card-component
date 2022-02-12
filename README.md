@@ -4,11 +4,12 @@ link> https://www.frontendmentor.io/challenges/stats-preview-card-component-8Jqb
 
 Minha solução:
 
-https://callseven.github.io/four-card-feature-section/
+https://callseven.github.io/stats-preview-card-component/
 
 ![Mobile](https://user-images.githubusercontent.com/7409421/152624566-5721633d-06c0-4a82-bd17-c13ef915d76d.png)
 
-![Desktop](https://user-images.githubusercontent.com/7409421/152699964-56b45b19-b3c5-43fb-ba45-5e6512b4d4f7.png)
+![Desktop](https://user-images.githubusercontent.com/7409421/153692296-80a684ad-71cf-40bf-a9e0-b8c5673f8ccc.png)
+
 
 
 ## Bem-vindo! - Welcome! 👋

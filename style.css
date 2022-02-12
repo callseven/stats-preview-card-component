@@ -1,0 +1,279 @@
+/* github.com/callseven */
+
+* {
+    margin: 0;
+}
+
+body {
+    --Verydarkbluemainbackground: hsl(233, 47%, 7%);
+    --Darkdesaturatedbluecardbackground: hsl(244, 38%, 16%);
+    --Softvioletaccent: hsl(277, 64%, 61%);
+    --Whitemainheadingstats: hsl(0, 0%, 100%);
+    --Slightlytransparentwhitemainparagraph: hsla(0, 0%, 100%, 0.893);
+    --Slightlytransparentwhitestatheadings: hsla(0, 0%, 100%, 0.6);
+    font-family: "Inter", sans-serif;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 15px;
+    background-color: rgb(14, 14, 14);
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+main {
+    background-color: var(--Verydarkbluemainbackground);
+    width: 375px;
+    min-height: 100%;
+}
+
+.container {
+    margin: 85px auto;
+    width: 330px;
+    background-color: var(--Darkdesaturatedbluecardbackground);
+    border-radius: 9px;
+    height: 790px;
+}
+
+.topimgsec {
+    object-fit: contain;
+    width: 330px;
+    height: 249px;
+    margin-top: 0px;
+    background-color: var(--Softvioletaccent);
+    opacity: 25%;
+    position: absolute;
+    border-radius: 10px 10px 0 0;
+    z-index: 2;
+    filter: hue-rotate( 340deg) saturate(550%);
+}
+
+.topimg>img {
+    background-blend-mode: color-burn;
+    filter: brightness(.5);
+    border-radius: 10px 10px 0 0;
+    margin: 0px;
+    width: 330px;
+    position: absolute;
+    z-index: 1;
+    clip: rect(0px, 360px, 250px, 0px);
+}
+
+h1 {
+    margin: 290px auto;
+    text-align: center;
+    position: absolute;
+    color: var(--Slightlytransparentwhitemainparagraph);
+    width: 280px;
+    padding-left: 25px;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 27px;
+    letter-spacing: .03rem;
+}
+
+.top p {
+    font-family: "Inter";
+    margin: 405px auto;
+    text-align: center;
+    position: absolute;
+    color: var(--Slightlytransparentwhitestatheadings);
+    width: 270px;
+    line-height: 1.6rem;
+    padding-left: 29px;
+}
+
+span {
+    color: var(--Softvioletaccent);
+}
+
+.stats {
+    margin-top: 535px;
+    margin-left: 119px;
+    /* margin: 500px auto; */
+    text-align: center;
+    font-size: 23px;
+    font-family: "Inter";
+    font-weight: 700;
+    color: var(--Slightlytransparentwhitemainparagraph);
+    position: absolute;
+    /* margin-top: 410px; */
+    /* display: grid; */
+}
+
+.stats p:first-child {
+    margin-top: 15px;
+}
+
+.stats p:nth-child(2) {
+    margin-top: 5px;
+    font-family: "Lexend Deca";
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--Slightlytransparentwhitestatheadings);
+}
+
+.stats p:nth-child(3) {
+    margin-top: 27px;
+}
+
+.stats p:nth-child(4) {
+    margin-top: 5px;
+    font-family: "Lexend Deca";
+    font-size: 13px;
+    text-transform: uppercase;
+    color: var(--Slightlytransparentwhitestatheadings);
+}
+
+.stats p:nth-child(5) {
+    margin-top: 27px;
+    text-transform: uppercase;
+}
+
+.stats p:nth-child(6) {
+    margin-top: 5px;
+    font-family: "Lexend Deca";
+    font-size: 13px;
+    text-transform: uppercase;
+    color: var(--Slightlytransparentwhitestatheadings);
+}
+
+footer {
+    margin-top: -50px;
+    font-size: 12px;
+    color: aqua;
+}
+
+footer a {
+    text-decoration: none;
+    color: bisque;
+}
+
+footer a:hover {
+    color: var(--Softvioletaccent);
+}
+
+
+/* Media */
+
+
+/* DESKTOP */
+
+@media (min-width:960px) {
+    main {
+        background-color: var(--Verydarkbluemainbackground);
+        width: 375px;
+        min-height: 100%;
+    }
+    .container {
+        margin: 85px auto;
+        width: 330px;
+        background-color: var(--Darkdesaturatedbluecardbackground);
+        border-radius: 9px;
+        height: 790px;
+    }
+    .topimgsec {
+        object-fit: contain;
+        width: 330px;
+        height: 249px;
+        margin-top: 0px;
+        background-color: var(--Softvioletaccent);
+        opacity: 25%;
+        position: absolute;
+        border-radius: 10px 10px 0 0;
+        z-index: 2;
+        filter: hue-rotate( 340deg) saturate(550%);
+    }
+    .topimg>img {
+        background-blend-mode: color-burn;
+        filter: brightness(.5);
+        border-radius: 10px 10px 0 0;
+        margin: 0px;
+        width: 330px;
+        position: absolute;
+        z-index: 1;
+        clip: rect(0px, 360px, 250px, 0px);
+    }
+    h1 {
+        margin: 290px auto;
+        text-align: center;
+        position: absolute;
+        color: var(--Slightlytransparentwhitemainparagraph);
+        width: 280px;
+        padding-left: 25px;
+        font-family: "Inter";
+        font-weight: 700;
+        font-size: 27px;
+        letter-spacing: .03rem;
+    }
+    .top p {
+        font-family: "Inter";
+        margin: 405px auto;
+        text-align: center;
+        position: absolute;
+        color: var(--Slightlytransparentwhitestatheadings);
+        width: 270px;
+        line-height: 1.6rem;
+        padding-left: 29px;
+    }
+    span {
+        color: var(--Softvioletaccent);
+    }
+    .stats {
+        margin-top: 535px;
+        margin-left: 119px;
+        /* margin: 500px auto; */
+        text-align: center;
+        font-size: 23px;
+        font-family: "Inter";
+        font-weight: 700;
+        color: var(--Slightlytransparentwhitemainparagraph);
+        position: absolute;
+        /* margin-top: 410px; */
+        /* display: grid; */
+    }
+    .stats p:first-child {
+        margin-top: 15px;
+    }
+    .stats p:nth-child(2) {
+        margin-top: 5px;
+        font-family: "Lexend Deca";
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: var(--Slightlytransparentwhitestatheadings);
+    }
+    .stats p:nth-child(3) {
+        margin-top: 27px;
+    }
+    .stats p:nth-child(4) {
+        margin-top: 5px;
+        font-family: "Lexend Deca";
+        font-size: 13px;
+        text-transform: uppercase;
+        color: var(--Slightlytransparentwhitestatheadings);
+    }
+    .stats p:nth-child(5) {
+        margin-top: 27px;
+        text-transform: uppercase;
+    }
+    .stats p:nth-child(6) {
+        margin-top: 5px;
+        font-family: "Lexend Deca";
+        font-size: 13px;
+        text-transform: uppercase;
+        color: var(--Slightlytransparentwhitestatheadings);
+    }
+    footer {
+        margin-top: -50px;
+        font-size: 12px;
+        color: aqua;
+    }
+    footer a {
+        text-decoration: none;
+        color: bisque;
+    }
+    footer a:hover {
+        color: var(--Softvioletaccent);
+    }
+}
