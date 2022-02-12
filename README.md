@@ -6,9 +6,10 @@ Minha solução:
 
 https://callseven.github.io/stats-preview-card-component/
 
-![Mobile](https://user-images.githubusercontent.com/7409421/152624566-5721633d-06c0-4a82-bd17-c13ef915d76d.png)
+![Mobile](https://user-images.githubusercontent.com/7409421/153692296-80a684ad-71cf-40bf-a9e0-b8c5673f8ccc.png)
 
-![Desktop](https://user-images.githubusercontent.com/7409421/153692296-80a684ad-71cf-40bf-a9e0-b8c5673f8ccc.png)
+![Desktop](https://user-images.githubusercontent.com/7409421/153695180-051f70fc-5809-4660-98a4-8c9cd1bcccac.png)
+
 
 
 

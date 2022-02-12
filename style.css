@@ -162,118 +162,134 @@ footer a:hover {
 @media (min-width:960px) {
     main {
         background-color: var(--Verydarkbluemainbackground);
-        width: 375px;
-        min-height: 100%;
+        width: 100%;
+        /* min-height: 100%; */
     }
     .container {
-        margin: 85px auto;
-        width: 330px;
+        margin: 175px auto;
+        width: 1110px;
         background-color: var(--Darkdesaturatedbluecardbackground);
         border-radius: 9px;
-        height: 790px;
+        height: 445px;
     }
     .topimgsec {
-        object-fit: contain;
-        width: 330px;
-        height: 249px;
+        /* object-fit: contain; */
+        width: 540px;
+        height: 445px;
         margin-top: 0px;
+        left: 700px;
         background-color: var(--Softvioletaccent);
         opacity: 25%;
         position: absolute;
-        border-radius: 10px 10px 0 0;
+        border-radius: 0 8px 8px 0;
         z-index: 2;
         filter: hue-rotate( 340deg) saturate(550%);
     }
     .topimg>img {
+        /* height: 450px; */
+        /* margin-left: 300px; */
+        left: 700px;
         background-blend-mode: color-burn;
         filter: brightness(.5);
-        border-radius: 10px 10px 0 0;
+        border-radius: 0 8px 8px 0;
         margin: 0px;
-        width: 330px;
+        width: 540px;
         position: absolute;
         z-index: 1;
-        clip: rect(0px, 360px, 250px, 0px);
+        clip: rect(0px, 560px, 450px, 0px);
+    }
+    .top {
+        padding-left: 50px;
     }
     h1 {
-        margin: 290px auto;
-        text-align: center;
+        margin: 70px auto;
+        text-align: left;
         position: absolute;
         color: var(--Slightlytransparentwhitemainparagraph);
-        width: 280px;
+        width: 460px;
         padding-left: 25px;
         font-family: "Inter";
         font-weight: 700;
-        font-size: 27px;
-        letter-spacing: .03rem;
+        font-size: 35px;
+        letter-spacing: .04rem;
+        line-height: 45px;
     }
     .top p {
         font-family: "Inter";
-        margin: 405px auto;
-        text-align: center;
+        margin: 183px auto;
+        text-align: left;
         position: absolute;
         color: var(--Slightlytransparentwhitestatheadings);
-        width: 270px;
+        width: 390px;
         line-height: 1.6rem;
-        padding-left: 29px;
+        padding-left: 25px;
     }
     span {
         color: var(--Softvioletaccent);
     }
     .stats {
-        margin-top: 535px;
-        margin-left: 119px;
+        margin-top: 316px;
+        margin-left: 70px;
         /* margin: 500px auto; */
-        text-align: center;
-        font-size: 23px;
+        text-align: left;
+        font-size: 24px;
         font-family: "Inter";
         font-weight: 700;
         color: var(--Slightlytransparentwhitemainparagraph);
         position: absolute;
         /* margin-top: 410px; */
-        /* display: grid; */
+        display: flex;
+        /* padding-left: 8px; */
     }
     .stats p:first-child {
         margin-top: 15px;
+        margin-left: 5px;
     }
     .stats p:nth-child(2) {
-        margin-top: 5px;
+        margin-top: 52px;
         font-family: "Lexend Deca";
-        font-size: 13px;
+        font-size: 12px;
         text-transform: uppercase;
         letter-spacing: 1px;
+        text-align: left;
+        margin-left: -58px;
         color: var(--Slightlytransparentwhitestatheadings);
     }
     .stats p:nth-child(3) {
-        margin-top: 27px;
+        margin-top: 15px;
+        margin-left: 65px;
     }
     .stats p:nth-child(4) {
-        margin-top: 5px;
+        margin-top: 50px;
         font-family: "Lexend Deca";
         font-size: 13px;
         text-transform: uppercase;
+        margin-left: -45px;
         color: var(--Slightlytransparentwhitestatheadings);
     }
     .stats p:nth-child(5) {
-        margin-top: 27px;
+        margin-top: 15px;
+        margin-left: 65px;
         text-transform: uppercase;
     }
     .stats p:nth-child(6) {
-        margin-top: 5px;
+        margin-top: 50px;
         font-family: "Lexend Deca";
         font-size: 13px;
         text-transform: uppercase;
+        margin-left: -65px;
         color: var(--Slightlytransparentwhitestatheadings);
     }
     footer {
-        margin-top: -50px;
+        margin-top: -150px;
         font-size: 12px;
-        color: aqua;
+        color: var(--Softvioletaccent);
     }
     footer a {
         text-decoration: none;
         color: bisque;
     }
     footer a:hover {
-        color: var(--Softvioletaccent);
+        color: violet;
     }
 }
